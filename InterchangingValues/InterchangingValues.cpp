@@ -108,9 +108,9 @@ void InterchangeValueOfThreeVariables()
         cout << "Enter the value of c:";    cin >> third_num;
 
         //Checking if the values of all three variables are same, if they are same there will be no exchange.
-        if (first_num == second_num and first_num == third_num)
+        if (first_num == second_num && first_num == third_num)
         {
-            cout << "\nThe values of a, b and c are same, hence no need to exchanging the values." << endl;
+            cout << "\nThe values of a, b and c are same, hence no need of exchanging the values." << endl;
         }
 
         else
