@@ -3,7 +3,7 @@
 
 #include <iostream>
 using namespace std;
-const int FirstChoice = 1, LastChoice = 4;
+const int FIRSTCHOICE = 1, LASTCHOICE = 4;
 
 void InterchangeValueUsingTemporaryVariable();
 void InterchangeValueOfThreeVariables();
@@ -23,7 +23,7 @@ int main()
         cin >> choice;
 
         //Checking if the option selected by the user is valid. If the selection is invalid the program will exit.
-        if (choice < FirstChoice or choice > LastChoice)
+        if (choice < FIRSTCHOICE or choice > LASTCHOICE)
         {
             cout << "\nYour choice is invalid... exiting the program.";
             return 0;
