@@ -151,7 +151,7 @@ void InterchangeValueOfFourVariables()
         cout << "Enter the value for d:";   cin >> fourth_num;
 
         //Checking if the values of all four variables are same, if they are same there will be no exchange.
-        if (first_num == second_num and first_num == third_num and first_num == fourth_num)
+        if (first_num == second_num && first_num == third_num && first_num == fourth_num)
         {
             cout << "\nThe values of a, b, c and d are same, hence no need of exchanging the values." << endl;
         }
