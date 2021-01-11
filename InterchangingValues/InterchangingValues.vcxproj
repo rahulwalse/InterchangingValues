@@ -139,7 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="InterchangeValueOfFourVariables.cpp" />
+    <ClCompile Include="InterchangeValueOfThreeVariables.cpp" />
+    <ClCompile Include="InterchangeValueUsingTemporaryVariable.cpp" />
+    <ClCompile Include="InterchangeValueWithoutUsingTemporaryVariable.cpp" />
     <ClCompile Include="InterchangingValues.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InterchangeF.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
