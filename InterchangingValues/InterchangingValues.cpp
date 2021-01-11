@@ -7,8 +7,7 @@
 
 #include <iostream>
 #include "InterchangeF.h"
-#define FIRSTOPTION 1
-#define LASTOPTION 4
+const int FIRSTOPTION = 1, LASTOPTION = 4;
 using namespace std;
 
 int main()
