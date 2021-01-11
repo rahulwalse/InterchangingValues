@@ -141,8 +141,8 @@
   <ItemGroup>
     <ClCompile Include="InterchangeValueOfFourVariables.cpp" />
     <ClCompile Include="InterchangeValueOfThreeVariables.cpp" />
-    <ClCompile Include="InterchangeValueUsingTemporaryVariable.cpp" />
-    <ClCompile Include="InterchangeValueWithoutUsingTemporaryVariable.cpp" />
+    <ClCompile Include="InterchangeUsingTemporaryVariable.cpp" />
+    <ClCompile Include="InterchangeWithoutUsingTemporaryVariable.cpp" />
     <ClCompile Include="InterchangingValues.cpp" />
   </ItemGroup>
   <ItemGroup>

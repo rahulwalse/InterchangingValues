@@ -18,16 +18,16 @@
     <ClCompile Include="InterchangingValues.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="InterchangeValueUsingTemporaryVariable.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="InterchangeValueOfThreeVariables.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="InterchangeValueOfFourVariables.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="InterchangeValueWithoutUsingTemporaryVariable.cpp">
+    <ClCompile Include="InterchangeUsingTemporaryVariable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InterchangeWithoutUsingTemporaryVariable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
