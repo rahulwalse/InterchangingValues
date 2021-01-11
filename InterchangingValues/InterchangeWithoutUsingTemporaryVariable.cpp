@@ -42,5 +42,5 @@ void InterchangeWithoutUsingTemporaryVariable()
 
         cout << "\nWant to interchange values of two numbers (without using a temporary variable) with different values again? (Y/N)" << endl;
         cin >> conti;
-    } while (conti == 'Y' or conti == 'y');
+    } while (conti == 'Y' || conti == 'y');
 }

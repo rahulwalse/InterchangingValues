@@ -40,5 +40,5 @@ void InterchangeUsingTemporaryVariable()
 
         cout << "\nWant to interchange values of two numbers with different values again? (Y/N)" << endl;
         cin >> conti;
-    } while (conti == 'Y' or conti == 'y');
+    } while (conti == 'Y' || conti == 'y');
 }

@@ -45,5 +45,5 @@ void InterchangeValueOfThreeVariables()
 
         cout << "\nWant to exchange values of a, b and c in a --> b --> c --> a order with different values again? (Y/N)" << endl;
         cin >> conti;
-    } while (conti == 'Y' or conti == 'y');
+    } while (conti == 'Y' || conti == 'y');
 }

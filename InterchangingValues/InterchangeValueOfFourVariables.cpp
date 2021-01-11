@@ -47,5 +47,5 @@ void InterchangeValueOfFourVariables()
 
         cout << "\nWant to exchange values of a, b, c and d in a <-- b <-- c <-- d <-- a order with different values again? (Y/N) " << endl;
         cin >> conti;
-    } while (conti == 'Y' or conti == 'y');
+    } while (conti == 'Y' || conti == 'y');
 }

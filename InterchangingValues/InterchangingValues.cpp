@@ -7,10 +7,9 @@
 
 #include <iostream>
 #include "InterchangeF.h"
+#define FIRSTOPTION 1
+#define LASTOPTION 4
 using namespace std;
-const int FIRSTCHOICE = 1, LASTCHOICE = 4;
-
-
 
 int main()
 {
@@ -25,7 +24,7 @@ int main()
         cin >> choice;
 
         /*Check if the option selected by the user is valid. If the selection is invalid the program will exit.*/
-        if (choice < FIRSTCHOICE or choice > LASTCHOICE)
+        if (choice < FIRSTOPTION || choice > LASTOPTION)
         {
             cout << "\nYour choice is invalid... exiting the program.";
             return 0;
@@ -51,5 +50,5 @@ int main()
         /*Check if the user wants to continue the exchange operation.*/
         cout << "\nDo you want to do a different exchange operation? (Y/N)" << endl;
         cin >> conti;
-    } while (conti == 'Y' or conti == 'y');
+    } while (conti == 'Y' || conti == 'y');
 }
